@@ -20,8 +20,8 @@ prompt=ChatPromptTemplate.from_messages(
 
 ## streamlit framework
 
-st.title('Langchain Demo With OPENAI API')
-input_text=st.text_input("Search the topic u want")
+st.title('Chat with Kaustubh')
+input_text=st.text_input("Hello User, how can I help you?")
 
 # openAI LLm 
 llm=ChatOpenAI(model="gpt-3.5-turbo")
